@@ -9,7 +9,57 @@
 
 ### 產線一
 * 進行特徴工程，增加許多新特徴，如前幾天異常燈管數的最大値等特徴，
-* 使用機器學習模型(Lasso、LGBM等)進行建模
+* 使用機器學習模型(Lasso、LGBM等)進行建模  
+<table>
+  <tr>
+    <td>特徵名稱</td>
+    <td>描述</td>
+  </tr>
+
+  <tr>
+    <td> number_sum </td>
+    <td> 前27天異常燈管總數 </td>
+  </tr>
+    <td> number_max </td>
+    <td> 前27天異常燈管最大值 </td>
+  </tr>
+  </tr>
+    <td> number_min </td>
+    <td> 前27天異常燈管最小值 </td>
+  </tr>
+  </tr>
+    <td> number_mode </td>
+    <td> 前27天異常燈管眾數 </td>
+  </tr>
+  </tr>
+    <td> days </td>
+    <td> 前27天異常燈管出現天數 </td>
+  </tr>
+  </tr>
+    <td> oven_encoder </td>
+    <td> 前27天的平均損壞數量 </td>
+  </tr>
+  </tr>
+    <td> cooler_max </td>
+    <td> 該爐層的最大水冷板溫度 </td>
+  </tr>
+  </tr>
+    <td> avg_accumulation </td>
+    <td> 該爐層的平均使用時數 </td>
+  </tr>
+  </tr>
+    <td> max_accumulation </td>
+    <td> 該爐層的最大累積使用時數 </td>
+  </tr>
+  </tr>
+    <td> min_accumulation </td>
+    <td> 該爐層的最小累積使用時數 </td>
+  </tr>
+  </tr>
+    <td> avg_power_setup </td>
+    <td> 該爐層的平均功率輸出設定 </td>
+  </tr>
+</table>
 
 ### 產線二
 * 使用ETS分解時間序列資料

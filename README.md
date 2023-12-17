@@ -8,8 +8,8 @@
 ## 使用方法
 
 ### 產線一
-* 進行特徴工程，增加許多新特徴，如前幾天異常燈管數的最大値等特徴，
-* 使用機器學習模型(Lasso、LGBM等)進行建模  
+* 進行特徴工程，增加許多新特徴。
+* 使用機器學習模型進行建模，模型包含Lasso regression、XGBoost、LightGBM、Catboost  
 <table>
   <tr>
     <td>特徵名稱</td>

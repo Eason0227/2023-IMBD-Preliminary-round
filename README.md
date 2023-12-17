@@ -23,39 +23,39 @@
     <td> number_max </td>
     <td> 前27天異常燈管最大值 </td>
   </tr>
-  </tr>
+  <tr>
     <td> number_min </td>
     <td> 前27天異常燈管最小值 </td>
   </tr>
-  </tr>
+  <tr>
     <td> number_mode </td>
     <td> 前27天異常燈管眾數 </td>
   </tr>
-  </tr>
+  <tr>
     <td> days </td>
     <td> 前27天異常燈管出現天數 </td>
   </tr>
-  </tr>
+  <tr>
     <td> oven_encoder </td>
     <td> 前27天的平均損壞數量 </td>
   </tr>
-  </tr>
+  <tr>
     <td> cooler_max </td>
     <td> 該爐層的最大水冷板溫度 </td>
   </tr>
-  </tr>
+  <tr>
     <td> avg_accumulation </td>
     <td> 該爐層的平均使用時數 </td>
   </tr>
-  </tr>
+  <tr>
     <td> max_accumulation </td>
     <td> 該爐層的最大累積使用時數 </td>
   </tr>
-  </tr>
+  <tr>
     <td> min_accumulation </td>
     <td> 該爐層的最小累積使用時數 </td>
   </tr>
-  </tr>
+  <tr>
     <td> avg_power_setup </td>
     <td> 該爐層的平均功率輸出設定 </td>
   </tr>
